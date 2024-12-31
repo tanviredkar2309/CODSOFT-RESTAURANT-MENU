@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bistro Bliss</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #c5e760;
+        }
+        header {
+            background: #258a82;
+            color: bisque;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #c5e760;
+            padding: 10px;
+        }
+        nav a {
+            color:#ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('resto.jpg');
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #258a82;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: bisque;
+            color:  #258a82;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .menu-section {
+            margin-bottom: 20px;
+        }
+        .menu-section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .menu-item span {
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #258a82;
+            color: bisque;
+        }
+        footer a {
+            color: #da3232;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>BISTRO BLISS!</h1>
+</header>
+
+<nav>
+    <a href="#menu">Menu</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <h1>Delicious Food, Unforgettable Experience</h1>
+</div>
+
+<div id="menu" class="container">
+    <h2>Our Menu</h2>
+    <section class="menu-section">
+        <h2>Appetizers</h2><img src="sandwich.jpg" style="border-radius: 10px; width: 210px; height: 250px;"/>
+        <img src="salad.jpg" style="border-radius: 10px; width: 250px; height: 250px;"/>
+        <img src="lobster.jpg" style="border-radius: 10px; width: 230px; height: 250px;"/>
+        <img src="stackmushroom.jpg" style="border-radius: 10px; width: 210px; height: 250px;"/>
+        <img src="SpaghettiMeatballs.jpg" style="border-radius: 10px; width: 210px; height: 250px;"/>
+        <div class="menu-item">
+            <div>Classic Nachos</div>
+            <span>$8.99</span>
+        </div>
+        <div class="menu-item">
+            <div>Caesar Salad</div>
+            <span>$7.49</span>
+        </div>
+        <div class="menu-item">
+            <div>Lobster</div>
+            <span>$9.00</span>
+        </div>
+        <div class="menu-item">
+            <div>Stack Mushroom</div>
+            <span>$5.25</span>
+        </div>
+        <div class="menu-item">
+            <div>Spaghetti Meatballs</div>
+            <span>$10.36</span>
+        </div>
+    </section>
+
+    <section class="menu-section">
+        <h2>Main Course</h2>
+        <img src="burger.jpg" style="border-radius: 10px; width: 210px; height: 250px;"/>
+        <img src="steak.jpg" style="border-radius: 10px; width: 210px; height: 250px;"/>
+        <img src="submarine.jpg" style="border-radius: 10px; width: 230px; height: 250px;"/>
+        <img src="thai.jpg" style="border-radius: 10px; width: 230px; height: 250px;"/>
+        <img src="sizzler.jpg" style="border-radius: 10px; width: 220px; height: 250px;"/>
+        <div class="menu-item">
+            <div>Veggie Burger</div>
+            <span>$10.99</span>
+        </div>
+        <div class="menu-item">
+            <div>Chicken Steak</div>
+            <span>$12.09</span>
+        </div>
+        <div class="menu-item">
+            <div>Chicken Submarine</div>
+            <span>$15.35</span>
+        </div>
+        <div class="menu-item">
+            <div>Thai Curry and Rice</div>
+            <span>$18.27</span>
+        </div>
+        <div class="menu-item">
+            <div>Paneer sizzler</div>
+            <span>$13.00</span>
+        </div>
+    </section>
+
+    <section class="menu-section">
+        <h2>Desserts</h2><img src="dessert.jpg" style="border-radius: 10px; width: 250px; height: 250px;"/>
+        <img src="cheesecake.jpg" style="border-radius: 10px; width: 230px; height: 250px;"/>
+        <img src="glutendonuts.jpg" style="border-radius: 10px; width: 200px; height: 250px;"/>
+        <img src="raspberrycake.jpg" style="border-radius: 10px; width: 210px; height: 250px;"/>
+        <img src="tiramisucups.jpg" style="border-radius: 10px; width: 220px; height: 250px;"/>
+
+        <div class="menu-item">
+            <div>Chocolate Lava Cake</div>
+            <span>$6.99</span>
+        </div>
+        <div class="menu-item">
+            <div>Cheesecake</div>
+            <span>$5.99</span>
+        </div>
+        <div class="menu-item">
+            <div>Glutte Donuts</div>
+            <span>$8.99</span>
+        </div>
+        <div class="menu-item">
+            <div>Raspberry Cake</div>
+            <span>$7.99</span>
+        </div>
+        <div class="menu-item">
+            <div>Tiramisu Cups</div>
+            <span>$3.99</span>
+        </div>
+    </section>
+</div>
+<div id="about" class="container">
+    <h2>About Us</h2>
+    <p>Welcome to Bistro Bliss, where every dish is crafted with love and the freshest ingredients. Our chefs are dedicated to bringing you the finest culinary experiences, blending tradition with innovation. Whether you're here for a quick bite or a leisurely meal, we promise an unforgettable dining experience.</p>
+</div>
+
+<div id="contact" class="container">
+    <h2>Contact Us</h2>
+    <p>Email: contact@bistrobliss.com</p>
+    <p>Phone: +1 234 567 890</p>
+    <p>Address: 123 Culinary Lane, Food City</p>
+</div>
+
+<footer>
+    <p>Follow us on <a href="#">Social Media</a></p>
+    <p>&copy; 2024 BISTRO BLISS. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
